@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "jquery.sumoselect@3.4.9",
+      "destination": "wwwroot/jquery.sumoselect/",
+      "files": [
+        "jquery.sumoselect.min.js"
+      ]
+    }
+  ]
+}

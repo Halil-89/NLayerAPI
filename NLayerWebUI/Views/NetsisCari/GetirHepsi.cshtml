@@ -1,0 +1,38 @@
+﻿@model IEnumerable<CasabitViewModel>
+@{
+    ViewData["Title"] = "GetirHepsi";
+}
+
+
+@{
+    Layout = "_Layout";
+}
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <td>Kod</td>
+            <td>Adı</td>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.CARI_KOD
+
+                </td>
+                <td>
+                    @item.CARI_ISIM
+                </td>
+
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+
